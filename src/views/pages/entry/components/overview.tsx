@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 
 // Context
 import { PageContext } from "../context";
@@ -25,7 +24,7 @@ const Overview = () => {
         </div>
         <div className="ml-6">
           <img
-            src={data.flickr_images[0]!}
+            src={data.flickr_images[0]}
             className="h-[250px] w-[250px] rounded-full object-cover object-center lg:h-[500px] lg:w-[500px]"
             alt="Picture of the Rocket"
           />

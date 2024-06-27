@@ -10,7 +10,6 @@ import Wikipedia from "./components/wikipedia";
 
 // Types
 import type { GetServerSideProps } from "next";
-import type { Rocket } from "@/server/api/routers/types";
 
 const EntryPage = async (props: EntryPageProps) => {
   // Getting the data from the server.
@@ -19,7 +18,7 @@ const EntryPage = async (props: EntryPageProps) => {
   });
 
   return (
-    <ContextProvider data={data as Rocket}>
+    <ContextProvider data={data!}>
       <div className="mx-auto max-w-screen-2xl px-8 md:px-12">
         <Overview />
         <Images />

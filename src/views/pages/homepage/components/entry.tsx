@@ -29,7 +29,7 @@ const Entry = (props: Props) => {
         </div>
         <div className="flex w-full items-center justify-center md:ml-12 md:w-auto">
           <img
-            src={props.data.flickr_images[0]!}
+            src={props.data.flickr_images[0]}
             alt="Image"
             className="h-[160px] w-[160px] rounded-full object-cover object-center"
           />

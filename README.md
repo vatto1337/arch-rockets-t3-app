@@ -14,7 +14,7 @@ I feel that I have done a great job with this project within a strict 4-hour lim
 
 - Adding more content to the pages; I find the homepage too brief with only a few blocks.
 - Making the app resilient to scenarios where the API might not function. Currently, I am only following a happy path approach. In a live environment, I would ensure error handling and robustness.
-- Optimizing images further.
+- Optimizing images further (Using Image componenent etc).
 - Setting up a proper theme pallete etc.
 
 ## How Do I Run This?

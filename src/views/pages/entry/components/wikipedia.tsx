@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 
 // Context
 import { PageContext } from "../context";
@@ -23,8 +22,8 @@ const Wikipedia = () => {
           <div className="font-light leading-normal text-white lg:text-xl">
             <p>
               Click the button below to visit the Wikipedia page and find out
-              more about this rocket's history, engineering, and significant
-              missions.
+              more about this rocket&apos;s history, engineering, and
+              significant missions.
             </p>
           </div>
           <div className="more-btn">

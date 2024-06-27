@@ -3,7 +3,7 @@ import Axios from "axios";
 import { z } from "zod";
 
 // Definitions
-import { Rocket } from "./types";
+import type { Rocket } from "./types";
 
 export const rocketsRouter = createTRPCRouter({
   getRockets: publicProcedure.query(async () => {

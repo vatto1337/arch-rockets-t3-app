@@ -2,8 +2,8 @@
 
 import React, { createContext, useContext } from "react";
 
-import { SharedContextType } from "./types";
-import { Rocket } from "@/server/api/routers/types";
+import type { SharedContextType } from "./types";
+import type { Rocket } from "@/server/api/routers/types";
 
 // Context
 export const Context = createContext<SharedContextType | null>(null);

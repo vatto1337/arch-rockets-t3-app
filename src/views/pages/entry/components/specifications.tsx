@@ -4,7 +4,6 @@ import React from "react";
 
 // Context
 import { PageContext } from "../context";
-import Link from "next/link";
 import moment from "moment";
 
 const Overview = () => {
