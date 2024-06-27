@@ -7,7 +7,7 @@ import { Rocket } from "@/server/api/routers/types";
 
 const Entry = (props: Props) => {
   return (
-    <div className="component-entry sm: w-1 w-1/2 p-3 hover:cursor-pointer">
+    <div className="component-entry hover:cursor-pointer">
       <Link
         href={`/rocket/${props.data.id}`}
         className="content flex flex-wrap items-center rounded-md bg-white p-6 py-8 text-black"
@@ -22,12 +22,12 @@ const Entry = (props: Props) => {
           </div>
 
           <div className="country mb-3 mt-3">
-            <div className="inline-block rounded-md bg-sky-100 px-3 py-2 text-xs font-semibold uppercase text-blue-500">
+            <div className="inline-block rounded-md bg-sky-100 px-3 py-2 text-center text-xs font-semibold uppercase text-blue-500">
               {props.data.country}
             </div>
           </div>
         </div>
-        <div className="ml-12">
+        <div className="flex w-full items-center justify-center md:ml-12 md:w-auto">
           <img
             src={props.data.flickr_images[0]!}
             alt="Image"

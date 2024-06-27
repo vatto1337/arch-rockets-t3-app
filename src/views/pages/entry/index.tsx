@@ -20,7 +20,7 @@ const EntryPage = async (props: EntryPageProps) => {
 
   return (
     <ContextProvider data={data as Rocket}>
-      <div className="mx-auto max-w-screen-2xl">
+      <div className="mx-auto max-w-screen-2xl px-8 md:px-12">
         <Overview />
         <Images />
         <Specifications />

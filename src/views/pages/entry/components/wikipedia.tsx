@@ -17,7 +17,7 @@ const Wikipedia = () => {
         className="flex flex-row items-center justify-between rounded-2xl bg-black p-16 pb-8"
       >
         <div className="information max-w-3xl">
-          <h2 className="text-5xl font-bold leading-tight tracking-tight text-white">
+          <h2 className="text-3xl font-bold leading-tight tracking-tight text-white lg:text-5xl">
             More Information
           </h2>
           <div className="font-light leading-normal text-white lg:text-xl">

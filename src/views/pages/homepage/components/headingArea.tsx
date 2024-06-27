@@ -6,7 +6,7 @@ const HeadingArea = () => {
     <React.Fragment>
       <div className="flex flex-col items-center justify-center px-6 py-16 text-center">
         <div className="max-w-4xl">
-          <h1 className="mt-6 text-5xl font-bold leading-tight tracking-tight">
+          <h1 className="mt-6 text-3xl font-bold leading-tight tracking-tight md:text-4xl">
             Discover the Amazing SpaceX Rockets
           </h1>
           <div className="mt-3 font-light leading-normal  text-gray-600 lg:text-xl">

@@ -41,7 +41,7 @@ const Overview = () => {
   return (
     <React.Fragment>
       <section id="specifications" className="py-12">
-        <h1 className="mb-1 text-2xl font-bold leading-tight tracking-tight">
+        <h1 className="text-1xl mb-1 font-bold leading-tight tracking-tight lg:text-2xl">
           Specifications
         </h1>
         <p className="mb-8 text-gray-400">

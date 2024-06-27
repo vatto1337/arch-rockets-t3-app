@@ -5,7 +5,6 @@ import Image from "next/image";
 
 // Context
 import { PageContext } from "../context";
-import Link from "next/link";
 
 const Overview = () => {
   const { data } = PageContext()!;
@@ -14,10 +13,10 @@ const Overview = () => {
     <React.Fragment>
       <section
         id="overview"
-        className="flex flex-row items-center justify-between"
+        className="flex flex-col items-center justify-center md:justify-between lg:flex-row"
       >
-        <div className="information max-w-3xl">
-          <h2 className="text-6xl font-bold leading-tight tracking-tight">
+        <div className="information mb-8 mt-8 max-w-3xl md:mb-0 md:mt-0">
+          <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-6xl">
             {data.name}
           </h2>
           <div className="description font-light leading-normal  text-gray-600 lg:text-xl">
@@ -27,7 +26,7 @@ const Overview = () => {
         <div className="ml-6">
           <img
             src={data.flickr_images[0]!}
-            className="h-[500px] w-[500px] rounded-full object-cover object-center"
+            className="h-[250px] w-[250px] rounded-full object-cover object-center lg:h-[500px] lg:w-[500px]"
             alt="Picture of the Rocket"
           />
         </div>
