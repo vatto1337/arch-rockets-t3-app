@@ -6,7 +6,7 @@ const Header = () => {
     <React.Fragment>
       <div className="h-1 bg-gradient-to-r from-[#3498db] to-[#c0392b]"></div>
       <div className="px-8 py-6 md:px-12">
-        <div className="flex items-center justify-between">
+        <div className="mx-auto flex max-w-screen-2xl items-center justify-between">
           <Logo />
           <Navigation />
         </div>
