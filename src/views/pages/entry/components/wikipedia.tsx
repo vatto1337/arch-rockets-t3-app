@@ -13,7 +13,7 @@ const Wikipedia = () => {
     <React.Fragment>
       <section
         id="wikipedia"
-        className="flex flex-row items-center justify-between rounded-2xl bg-black p-16 pb-8"
+        className="flex flex-row items-center justify-between rounded-2xl bg-black p-8 md:p-16"
       >
         <div className="information max-w-3xl">
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-white lg:text-4xl">
